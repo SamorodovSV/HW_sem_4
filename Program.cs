@@ -19,15 +19,16 @@
 // {
 //     private static void Main(string[] args)
 //     {
+//         Console.Clear();
 //         Console.WriteLine("Введите число, которое нужно возвести в степень:");
 //         int A = Convert.ToInt32(Console.ReadLine());
 //         Console.WriteLine("Введите степень:");
 //         int B = Convert.ToInt32(Console.ReadLine());
 //         int i = 1;
-//         int C = 0;
-//         while (i <= B)
+//         int C = A;
+//         while (i < B)
 //         {
-//             C = A * A;
+//             C = C * A;
 //             i++;
 //         }
 //         Console.WriteLine(A + ", " + B + "-> " + C);
